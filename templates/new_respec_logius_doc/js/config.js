@@ -15,7 +15,7 @@ var respecConfig = {
   // Voor publishDate zie https://github.com/w3c/respec/wiki/publishDate
   // Als er geen publishDate is opgegeven, genereert ReSpec de dataum o.b.v. de laatste wijzigingen
   // Belangrijk: als publishDate niet opgegeven is, wordt bij de link "Laatst gepubliceerde versie" "geen" gezet. Anders wordt een link opgebouwd voor de laatste versie, met het formaat:
-  // https://docs.geostandaarden.nl/{pubDomain}/{shortName}
+  // https://docs.geostandaarden.nl/{pubDomain}/{shortName} // Ben Krocké: Zal nog aangepast moeten worden naar Logius standaarden.
   publishDate: "2017-12-22",
 
   // Als er een eerder gepubliceerde versie is, geef dan de datum daarvan op
@@ -56,13 +56,13 @@ var respecConfig = {
 
   // in localBiblio kun je bibliografische items opnemen. In de tekst kun je dan tussen blokhaken verwijzen naar de korte naam bv [NEN3610].
   localBiblio: {
-    NEN3610: {
-      href: "http://www.nen.nl/web/Normshop/Norm/NEN-36102011-nl.htm",
+    Foo: {
+      href: "...",
       title:
-        "Basismodel Geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten",
+        "...",
       authors: [""],
       date: "Maart 2011",
-      publisher: "Nederlands Normalisatie-instituut",
+      publisher: "...",
     },
   },
 
